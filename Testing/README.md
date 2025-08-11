@@ -1,41 +1,77 @@
-# 🧪 Testing Prompts
+# Testing Phase Prompts
 
-This directory contains prompts designed to create comprehensive testing strategies, generate test cases, and implement quality assurance processes in DevOps.
+This folder contains prompts for comprehensive testing strategies - from unit tests to end-to-end testing and performance validation. These prompts help you create robust testing suites that ensure your application works correctly under all conditions.
 
-## 🎯 Purpose
+## Available Prompts
 
-Testing prompts help you:
-- Generate comprehensive test cases
-- Set up automated testing frameworks
-- Perform load and performance testing
-- Implement security testing
-- Create integration test scenarios
-- Design test data and environments
+### Core Testing
+- **[Test Generation](./test-generation.md)** - Create comprehensive unit, integration, and e2e tests
+- **[Integration Testing](./integration-testing.md)** - Test how different system components work together  
+- **[E2E Testing Strategy](./e2e-testing.md)** - End-to-end testing for complete user workflows
 
-## 📁 Contents
+### Performance Testing
+- **[Performance Testing](./performance-testing.md)** - Load testing, stress testing, and benchmarking
 
-- [Test Case Generation](./test-case-generation.md)
-- [Load Testing](./load-testing.md)
-- [Security Testing](./security-testing.md)
-- [Integration Testing](./integration-testing.md)
-- [Performance Testing](./performance-testing.md)
-- [API Testing](./api-testing.md)
-- [Test Data Management](./test-data-management.md)
-- [Test Environment Setup](./test-environment-setup.md)
+## When to Use Testing Prompts
 
-## 🚀 Quick Start
+### Starting Test Development
+- **Test Generation** when you need to create tests for new or existing code
+- **Integration Testing** when you need to test API endpoints, database operations, or external services
+- **E2E Testing Strategy** when you want to test complete user journeys
 
-1. Identify your testing need
-2. Select the appropriate prompt template
-3. Provide application details and requirements
-4. Use with your preferred AI tool
-5. Implement and validate the tests
+### Performance Validation
+- **Performance Testing** when you need to validate your application under load
+- Use this for capacity planning, finding bottlenecks, and ensuring SLA compliance
 
-## 💡 Tips
+## Testing Workflow
 
-- Start with unit tests, then integration tests
-- Include both positive and negative test cases
-- Consider edge cases and error scenarios
-- Plan for test data management
-- Automate repetitive test scenarios
-- Monitor test coverage and quality metrics
+A comprehensive testing approach using these prompts:
+
+1. **Unit Tests** → Use Test Generation for individual functions and components
+2. **Integration Tests** → Use Integration Testing for system component interactions
+3. **E2E Tests** → Use E2E Testing Strategy for complete user workflows
+4. **Performance Tests** → Use Performance Testing for load and stress validation
+
+## Pro Tips for Testing
+
+### Test Generation
+- Start with critical business logic and user-facing features
+- Include both happy path and error scenarios
+- Consider edge cases and boundary conditions
+
+### Integration Testing
+- Test real integrations where possible, use mocks sparingly
+- Focus on data flow between components
+- Include failure scenarios and recovery testing
+
+### E2E Testing
+- Focus on critical user journeys that generate business value
+- Keep tests maintainable and not too brittle
+- Include cross-browser and device testing
+
+### Performance Testing
+- Establish baseline performance metrics before testing
+- Test with realistic data volumes and user patterns
+- Include both normal load and stress scenarios
+
+## Integration with Other Phases
+
+- **From Development**: Use tests to validate code created with [Development Phase](../development/) prompts
+- **From Planning**: Use requirements from [Planning Phase](../planning/) to guide test scenarios
+- **To Deployment**: Integrate tests into CI/CD using [Deployment Phase](../deployment/) prompts
+
+## Testing Strategy Quick Reference
+
+| I want to... | Use this prompt |
+|--------------|----------------|
+| Create unit tests for my functions | Test Generation |
+| Test API endpoints and database operations | Integration Testing |
+| Test complete user workflows | E2E Testing Strategy |
+| Validate performance under load | Performance Testing |
+
+## Next Steps
+
+After creating your tests:
+- Use [Documentation Phase](../documentation/) prompts to document your testing approach
+- Use [Deployment Phase](../deployment/) prompts to integrate tests into your CI/CD pipeline
+- Use [Maintenance Phase](../maintenance/) prompts for ongoing test maintenance 

@@ -1,5 +1,11 @@
 # 🚀 DevOps Prompt Library
 
+**Use this when:** You need to accelerate your DevOps workflow, save hours of development time, and become the most efficient engineer on your team.
+
+**Skill Level:** Beginner to Advanced
+
+---
+
 > **Your Ultimate Collection of Time-Saving Prompts for DevOps Excellence**
 
 This repository contains a curated collection of powerful prompts designed to accelerate your DevOps workflow, save hours of development time, and make you the most efficient engineer on your team.
@@ -200,7 +206,7 @@ Links to related prompts in the library
 
 ## 📊 Repository Stats
 
-- **Total Prompts**: 7
+- **Total Prompts**: 8
 - **Categories**: 7
 - **Last Updated**: 2025-08-11
 - **Contributors**: [To be updated]
@@ -212,6 +218,7 @@ Links to related prompts in the library
 - **🚀 Deployment**: 1 prompts
 - **🔧 Maintenance**: 1 prompts
 - **📚 Documentation**: 1 prompts
+- **🏗️ Infrastructure Architect**: 3 prompts
 
 ## 🏆 Success Stories
 

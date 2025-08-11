@@ -1,41 +1,88 @@
-# 🛠️ Development Prompts
+# Development Phase Prompts
 
-This directory contains prompts designed to accelerate code development, debugging, code reviews, and technical problem-solving in DevOps.
+This folder contains prompts for active development work - writing code, reviewing implementations, debugging issues, and refactoring existing code. These are the prompts you'll use most during the implementation phase of your project.
 
-## 🎯 Purpose
+##  Available Prompts
 
-Development prompts help you:
-- Debug complex issues faster
-- Write production-ready code
-- Perform thorough code reviews
-- Optimize performance
-- Implement security best practices
-- Create robust APIs and services
+### Code Creation & Generation
+- **[Code Generation](./code-generation.md)** - Generate boilerplate code, components, and structures
+- **[Code Review](./code-review.md)** - Get comprehensive feedback on your code quality
 
-## 📁 Contents
+### Code Improvement
+- **[Refactoring Assistant](./refactoring-assistant.md)** - Systematically improve existing code structure and quality
 
-- [Code Review](./code-review.md)
-- [Debugging](./debugging.md)
-- [Performance Optimization](./performance-optimization.md)
-- [Security Implementation](./security-implementation.md)
-- [API Development](./api-development.md)
-- [Error Handling](./error-handling.md)
-- [Logging Best Practices](./logging-best-practices.md)
-- [Configuration Management](./configuration-management.md)
+### Problem Solving
+- **[Debugging Assistant](./debugging-assistant.md)** - Systematic approach to finding and fixing bugs
 
-## 🚀 Quick Start
+##  When to Use Development Prompts
 
-1. Identify your development need
-2. Select the appropriate prompt template
-3. Provide relevant code and context
-4. Use with your preferred AI tool
-5. Implement and test the solution
+### Writing New Code
+- **Code Generation** when you need to create new components, functions, or modules
+- Use this for boilerplate code, API endpoints, UI components, etc.
 
-## 💡 Tips
+### Reviewing Your Work
+- **Code Review** before committing important changes
+- Use this to get feedback on code quality, security, and best practices
 
-- Always include relevant code snippets
-- Specify your programming language and framework
-- Include error messages and stack traces
-- Mention your current debugging attempts
-- Consider security implications
-- Test solutions in development first
+### Improving Existing Code
+- **Refactoring Assistant** when code works but needs improvement
+- Use this for cleaning up technical debt, improving performance, or enhancing maintainability
+
+### Fixing Issues
+- **Debugging Assistant** when you encounter bugs or unexpected behavior
+- Use this for systematic problem-solving and root cause analysis
+
+##  Development Workflow
+
+A typical development workflow using these prompts:
+
+1. **Generate** → Use Code Generation to create initial implementations
+2. **Review** → Use Code Review to validate your approach
+3. **Debug** → Use Debugging Assistant when issues arise
+4. **Refactor** → Use Refactoring Assistant to improve code quality
+5. **Review Again** → Final code review before completion
+
+##  Tips for Development
+
+### Code Generation
+- Be specific about requirements and constraints
+- Include examples from your existing codebase
+- Specify coding standards and conventions
+
+### Code Review  
+- Include relevant context about the project
+- Mention specific concerns or areas of focus
+- Ask for prioritized feedback (critical vs. nice-to-have)
+
+### Debugging
+- Include complete error messages and stack traces
+- Describe steps to reproduce the issue
+- Mention what you've already tried
+
+### Refactoring
+- Clearly state your refactoring goals
+- Include the full context of the code
+- Specify any constraints (backward compatibility, etc.)
+
+##  Integration with Other Phases
+
+- **From Planning**: Use architecture decisions to guide code generation
+- **To Testing**: Generate tests using [Testing Phase](../testing/) prompts
+- **To Documentation**: Document your code using [Documentation Phase](../documentation/) prompts
+- **To Deployment**: Prepare for deployment using [Deployment Phase](../deployment/) prompts
+
+##  Quick Reference
+
+| I want to... | Use this prompt |
+|--------------|----------------|
+| Create new code from scratch | Code Generation |
+| Get feedback on my code | Code Review |
+| Fix a bug or error | Debugging Assistant |
+| Improve working code | Refactoring Assistant |
+
+##  Next Steps
+
+After development work:
+- Use [Testing Phase](../testing/) prompts to create comprehensive tests
+- Use [Documentation Phase](../documentation/) prompts to document your code
+- Use [Deployment Phase](../deployment/) prompts to ship your code 
