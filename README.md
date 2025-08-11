@@ -206,12 +206,21 @@ Links to related prompts in the library
 
 ## 📊 Repository Stats
 
-- **Total Prompts**: 8
+- **Total Prompts**: 29
 - **Categories**: 7
-- **Last Updated**: 2025-08-11
+- **Last Updated**: 2025-08-12
 - **Contributors**: [To be updated]
 
 ### 📁 Directory Breakdown
+- **📋 Planning**: 8 prompts
+- **🛠️ Development**: 6 prompts
+- **🧪 Testing**: 5 prompts
+- **🚀 Deployment**: 3 prompts
+- **🔧 Maintenance**: 1 prompts
+- **📚 Documentation**: 2 prompts
+- **🏗️ Infrastructure Architect**: 4 prompts
+
+## 📁 Directory Breakdown
 - **📋 Planning**: 1 prompts
 - **🛠️ Development**: 2 prompts
 - **🧪 Testing**: 1 prompts
