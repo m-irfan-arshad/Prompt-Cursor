@@ -1,6 +1,6 @@
-# 🚀 DevOps Prompt Library
+# 🚀 AI Prompts Collection (Well-tested with Cursor AI)
 
-**Use this when:** You need to accelerate your DevOps workflow, save hours of development time, and become the most efficient engineer on your team.
+**Use this when:** You need to accelerate your DevOps workflow, save hours of development time, and become the most efficient engineer on your team. A curated collection of ready-to-use prompts to help you build better software faster. Whether you're starting a new project or working on an existing codebase, these prompts will help you get more effective assistance
 
 **Skill Level:** Beginner to Advanced
 
