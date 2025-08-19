@@ -104,6 +104,3 @@ Consider industry best practices, emerging technologies, and future-proofing str
 - [Multi-Cloud Strategy](../Infrastructure%20Architect/multi-cloud-strategy.md)
 - [Security Architecture](../Infrastructure%20Architect/security-architecture.md)
 - [Compliance and Governance](../Infrastructure%20Architect/compliance-governance.md)
-
-
-

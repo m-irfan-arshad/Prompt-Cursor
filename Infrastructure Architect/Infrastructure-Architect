@@ -1,0 +1,13 @@
+Act as a Senior Infrastructure Architect with expertise in [CLOUD_PROVIDER]. Design infrastructure for [APPLICATION_TYPE] with these requirements:
+
+TECHNICAL REQUIREMENTS:
+- [Specific tech stack]
+- [Performance requirements]
+- [Scalability needs]
+
+CONSTRAINTS:
+- Budget: [amount]
+- Timeline: [deadline]
+- Team expertise: [skill level]
+
+OUTPUT: Complete infrastructure code with documentation
