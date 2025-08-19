@@ -1,75 +1,105 @@
-# CI/CD Pipeline Setup Prompt
+# CI/CD Pipeline Setup
 
-## Purpose
-Design and implement a robust CI/CD pipeline that automates building, testing, and deploying applications with proper security, testing, and rollback capabilities.
+**Use this when:** You need to set up automated build, test, and deployment pipelines for your project.
 
-## When to Use
-- Setting up new CI/CD pipelines
-- Migrating from manual deployments
-- Improving existing pipelines
-- Adding new environments
-- Implementing security scanning
-- Optimizing deployment speed
+**Skill Level:** Intermediate to Advanced
 
-## Input Requirements
-- Application type and technology stack
-- Current deployment process
-- Target environments
-- Security requirements
-- Team size and expertise
-- Infrastructure details
+---
 
-## Example Usage
+## Copy This Prompt:
 
-```prompt
-I need to set up a CI/CD pipeline for a [application type] built with [technology stack] that needs to deploy to [environments].
+```
+I need help setting up a CI/CD pipeline for my project. Please help me design and implement automated build, test, and deployment workflows.
 
-Current Setup:
-- Source Control: [GitHub/GitLab/etc.]
-- Build Tool: [Maven/Gradle/npm/etc.]
-- Runtime: [Java/Node.js/Python/etc.]
-- Infrastructure: [Cloud provider]
-- Current Process: [describe current deployment]
+## Project Context:
+- **Project Type**: [Web app, API, mobile app, library, etc.]
+- **Technology Stack**: [Languages, frameworks, build tools]
+- **Repository**: [GitHub, GitLab, Bitbucket, etc.]
+- **Deployment Target**: [AWS, Azure, Google Cloud, Vercel, Heroku, self-hosted, etc.]
+- **Team Size**: [Solo developer, small team, large team]
 
-Requirements:
-- [List specific requirements]
-- [Security needs]
-- [Performance expectations]
-- [Compliance requirements]
-- [Team workflow preferences]
+## Current State:
+- **Existing Setup**: [What CI/CD, if any, do you currently have?]
+- **Build Process**: [How do you currently build and test?]
+- **Deployment Process**: [How do you currently deploy?]
+- **Pain Points**: [What manual steps are you trying to automate?]
 
-Please provide:
-1. Complete CI/CD pipeline configuration
-2. Build and test stages
-3. Security scanning integration
-4. Deployment strategies
-5. Rollback procedures
-6. Monitoring and alerting
-7. Environment-specific configurations
-8. Team access controls
-9. Documentation and runbooks
-10. Cost optimization recommendations
+## Requirements:
+- **Automation Goals**: [What processes need to be automated?]
+- **Environments**: [Development, staging, production, etc.]
+- **Testing Requirements**: [Unit tests, integration tests, e2e tests]
+- **Security Requirements**: [Secret management, security scanning, etc.]
+- **Performance Requirements**: [Build speed, deployment speed]
 
-Include best practices for [specific tools] and consider security, performance, and maintainability.
+## CI/CD Pipeline Design:
+
+Please create a comprehensive CI/CD setup that includes:
+
+### 1. Pipeline Strategy
+- Recommend the best CI/CD platform for your setup
+- Design the overall pipeline architecture
+- Explain branching strategy and workflows
+- Define environment promotion strategy
+
+### 2. Build Pipeline
+- Automated build configuration
+- Dependency management and caching
+- Build optimisation strategies
+- Artifact generation and storage
+
+### 3. Testing Pipeline
+- Automated test execution (unit, integration, e2e)
+- Test parallelisation and optimisation
+- Code coverage reporting
+- Test result notifications
+
+### 4. Security & Quality
+- Security vulnerability scanning
+- Code quality checks and linting
+- Dependency vulnerability scanning
+- Static analysis tools integration
+
+### 5. Deployment Pipeline
+- Deployment strategies (blue-green, rolling, canary)
+- Environment-specific configurations
+- Database migration handling
+- Rollback procedures
+
+### 6. Monitoring & Notifications
+- Build and deployment notifications
+- Performance monitoring setup
+- Error tracking and alerting
+- Dashboard and reporting
+
+### 7. Configuration Files
+Provide complete, ready-to-use configuration files for:
+- CI/CD platform configuration (GitHub Actions, GitLab CI, etc.)
+- Build scripts and commands
+- Environment variable management
+- Deployment configurations
+
+### 8. Best Practices
+- Pipeline security best practices
+- Performance optimisation tips
+- Troubleshooting common issues
+- Scaling considerations
+
+## Specific Deliverables:
+- Complete CI/CD configuration files
+- Step-by-step setup instructions
+- Environment setup guide
+- Security configuration checklist
+- Troubleshooting guide
+
+Please provide practical, production-ready configurations that can be implemented immediately.
 ```
 
-## Expected Output
-- Complete pipeline configuration files
-- Build and deployment scripts
-- Security scanning setup
-- Environment configurations
-- Monitoring and alerting setup
-- Documentation and procedures
+---
 
-## Tips & Tricks
-- Start with a simple pipeline and iterate
-- Include comprehensive testing stages
-- Implement security scanning early
-- Plan for parallel deployments
-- Consider infrastructure costs
-- Document everything thoroughly
+## Tips for Better Results:
 
-## Related Prompts
-- [Docker Configuration](./docker-configuration.md)
-- [Kubernetes Deployment](./kubernetes-deployment.md)
-- [Blue-Green Deployment](./blue-green-deployment.md)
+- **Specify your current tools** and any constraints you have
+- **Include your deployment frequency** - daily, weekly, on-demand
+- **Mention compliance requirements** - SOC2, GDPR, etc.
+- **Be clear about your infrastructure** - cloud provider, on-premise, hybrid
+- **Include any existing automation** that needs to be integrated 

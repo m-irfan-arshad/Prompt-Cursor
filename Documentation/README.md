@@ -7,6 +7,7 @@ This folder contains prompts for creating comprehensive documentation for your p
 ### Project Documentation
 - **[README Generator](./readme-generator.md)** - Create comprehensive, professional README files
 - **[Repository Snapshot](./repository-snapshot.md)** - Generate high-level project overview and identify documentation gaps
+- **[Prompt Library Runbook](./prompt-library-runbook.md)** - Complete procedure for implementing prompt library with 40-hour time savings
 
 ## When to Use Documentation Prompts
 

@@ -1,94 +1,130 @@
-# System Monitoring Prompt
+# Security Audit Assistant
 
-## Purpose
-Design comprehensive monitoring strategies and implement monitoring solutions to ensure system health, performance, and availability.
+**Use this when:** You need to identify security vulnerabilities and improve the security posture of your application.
 
-## When to Use
-- Setting up new monitoring systems
-- Improving existing monitoring
-- Troubleshooting performance issues
-- Planning for high availability
-- Implementing SRE practices
+**Skill Level:** Intermediate to Advanced
 
-## Input Requirements
-- System architecture details
-- Current monitoring setup
-- Performance requirements
-- Team size and expertise
-- Budget constraints
+---
 
-## Example Usage
+## Copy This Prompt:
 
-```prompt
-I need to design a comprehensive monitoring strategy for a [system type] with the following characteristics:
+```
+I need a comprehensive security audit of my application. Please help me identify vulnerabilities, security risks, and provide recommendations for improving security.
 
-System Details:
-- Architecture: [microservices/monolith/distributed]
-- Technology Stack: [list technologies]
-- Scale: [number of users/servers]
-- Criticality: [high/medium/low]
-- Current Monitoring: [existing tools]
+## Application Context:
+- **Application Type**: [Web app, API, mobile app, desktop app, etc.]
+- **Technology Stack**: [Languages, frameworks, databases, cloud services]
+- **User Base**: [Public-facing, internal, enterprise, etc.]
+- **Data Sensitivity**: [Personal data, financial, healthcare, etc.]
+- **Compliance Requirements**: [GDPR, HIPAA, SOC2, PCI-DSS, etc.]
 
-Requirements:
-- [availability requirements]
-- [performance requirements]
-- [response time requirements]
-- [budget constraints]
-- [team expertise level]
+## Current Security Measures:
+[Describe any existing security measures - authentication, encryption, monitoring, etc.]
+
+## Code/Architecture to Audit:
+[PASTE YOUR CODE OR DESCRIBE THE SYSTEM ARCHITECTURE]
+
+## Security Audit Request:
+
+Please conduct a thorough security assessment covering:
+
+### 1. Authentication & Authorization
+- Review authentication mechanisms
+- Assess authorization controls and access management
+- Check for privilege escalation vulnerabilities
+- Evaluate session management security
+- Review password policies and storage
+
+### 2. Input Validation & Data Security
+- Identify input validation vulnerabilities
+- Check for injection attacks (SQL, XSS, LDAP, etc.)
+- Assess data sanitization and encoding
+- Review file upload security
+- Evaluate data validation on client and server
+
+### 3. Data Protection
+- Review data encryption at rest and in transit
+- Assess sensitive data handling and storage
+- Check for data leakage vulnerabilities
+- Evaluate backup and recovery security
+- Review data retention and deletion policies
+
+### 4. Network & Infrastructure Security
+- Assess network security configurations
+- Review API security and rate limiting
+- Check for insecure direct object references
+- Evaluate CORS and CSP policies
+- Review SSL/TLS configuration
+
+### 5. Application Security
+- Identify business logic vulnerabilities
+- Check for insecure cryptographic practices
+- Review error handling and information disclosure
+- Assess logging and monitoring security
+- Evaluate third-party dependency security
+
+### 6. Configuration & Deployment Security
+- Review security configurations
+- Check for default credentials and settings
+- Assess environment variable security
+- Review deployment pipeline security
+- Evaluate infrastructure as code security
+
+## Security Assessment Report:
 
 Please provide:
-1. Monitoring Architecture
-   - Tool recommendations
-   - Data collection strategy
-   - Storage and retention policies
-   - Visualization setup
 
-2. Key Metrics to Monitor
-   - Infrastructure metrics
-   - Application metrics
-   - Business metrics
-   - Custom metrics
+### Critical Vulnerabilities
+- High-risk security issues requiring immediate attention
+- Potential impact and exploitation scenarios
+- Specific remediation steps with code examples
 
-3. Alerting Strategy
-   - Alert thresholds
-   - Escalation procedures
-   - On-call rotations
-   - Alert fatigue prevention
+### Major Security Concerns
+- Important security improvements needed
+- Risk assessment and prioritization
+- Recommended security enhancements
 
-4. Dashboard Design
-   - Executive dashboards
-   - Operational dashboards
-   - Developer dashboards
-   - Custom views
+### Security Best Practices
+- General security improvements
+- Industry standard recommendations
+- Preventive measures for future development
 
-5. Incident Response
-   - Runbook templates
-   - Communication procedures
-   - Post-incident analysis
-   - Continuous improvement
+### Compliance Considerations
+- Compliance gaps for mentioned regulations
+- Required security controls
+- Documentation and audit trail requirements
 
-6. Cost Optimization
-   - Resource utilization
-   - Data retention policies
-   - Tool consolidation
-   - ROI analysis
+### Security Testing Recommendations
+- Suggested security testing approaches
+- Tools and techniques for ongoing security assessment
+- Automated security scanning integration
+
+### Monitoring & Incident Response
+- Security monitoring recommendations
+- Incident response planning
+- Alerting and notification strategies
+
+## Specific Focus Areas:
+Please pay special attention to:
+- [Any specific security concerns you have]
+- [Recent security incidents or vulnerabilities you've heard about]
+- [Specific compliance requirements you need to meet]
+
+## Deliverables Requested:
+- Prioritized list of security issues
+- Specific remediation code examples
+- Security checklist for ongoing maintenance
+- Recommendations for security tools and processes
+
+Please be thorough but practical, focusing on actionable security improvements that provide the most security value.
 ```
 
-## Expected Output
-- Complete monitoring architecture
-- Tool recommendations and setup
-- Alerting and escalation procedures
-- Dashboard designs
-- Incident response plans
+---
 
-## Tips & Tricks
-- Start with critical metrics first
-- Implement gradual rollouts
-- Plan for data retention costs
-- Consider team skill levels
-- Document everything thoroughly
+## Tips for Better Results:
 
-## Related Prompts
-- [Log Analysis](./log-analysis.md)
-- [Performance Tuning](./performance-tuning.md)
-- [Incident Response](./incident-response.md)
+- **Include your full system architecture** - not just code snippets
+- **Mention specific compliance requirements** your industry requires
+- **Be clear about data types** you handle (PII, financial, etc.)
+- **Include your current security measures** to avoid duplicate recommendations
+- **Specify your risk tolerance** and security budget constraints

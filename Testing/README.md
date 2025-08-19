@@ -2,76 +2,59 @@
 
 This folder contains prompts for comprehensive testing strategies - from unit tests to end-to-end testing and performance validation. These prompts help you create robust testing suites that ensure your application works correctly under all conditions.
 
-## Available Prompts
+---
 
-### Core Testing
-- **[Test Generation](./test-generation.md)** - Create comprehensive unit, integration, and e2e tests
-- **[Integration Testing](./integration-testing.md)** - Test how different system components work together  
-- **[E2E Testing Strategy](./e2e-testing.md)** - End-to-end testing for complete user workflows
+## Prompts Overview
 
-### Performance Testing
-- **[Performance Testing](./performance-testing.md)** - Load testing, stress testing, and benchmarking
+### [Test Generation](./test-generation.md)
+- **Purpose:** Generate unit, integration, and end-to-end (E2E) tests for your codebase.
+- **How to Use:** Supply your code or function signatures and specify the types of tests you need. The prompt will help you scaffold tests for new or existing features, including edge cases and business logic.
 
-## When to Use Testing Prompts
+### [Integration Testing](./integration-testing.md)
+- **Purpose:** Validate how different modules, services, or components interact.
+- **How to Use:** Describe the system components and their interactions. The prompt will help you create integration test scenarios, including both success and failure cases.
 
-### Starting Test Development
-- **Test Generation** when you need to create tests for new or existing code
-- **Integration Testing** when you need to test API endpoints, database operations, or external services
-- **E2E Testing Strategy** when you want to test complete user journeys
+### [E2E Testing Strategy](./e2e-testing.md)
+- **Purpose:** Simulate real user workflows to ensure business-critical flows work as expected.
+- **How to Use:** Outline the user journeys or workflows to be tested. The prompt will help you generate E2E test scripts and strategies for cross-platform and cross-browser coverage.
 
-### Performance Validation
-- **Performance Testing** when you need to validate your application under load
-- Use this for capacity planning, finding bottlenecks, and ensuring SLA compliance
+### [Performance Testing](./performance-testing.md)
+- **Purpose:** Assess application behavior under load, stress, and benchmark conditions.
+- **How to Use:** Define expected traffic, data volumes, and performance goals. The prompt will help you create test plans and scripts to identify bottlenecks and validate scalability.
 
-## Testing Workflow
+---
 
-A comprehensive testing approach using these prompts:
+## How to Use This Folder
 
-1. **Unit Tests** → Use Test Generation for individual functions and components
-2. **Integration Tests** → Use Integration Testing for system component interactions
-3. **E2E Tests** → Use E2E Testing Strategy for complete user workflows
-4. **Performance Tests** → Use Performance Testing for load and stress validation
+1. **Start with Test Generation** to ensure code coverage for new and existing code.
+2. **Add Integration Tests** to verify component and service interactions.
+3. **Develop E2E Tests** to validate complete user workflows.
+4. **Run Performance Tests** to ensure your system meets performance and scalability requirements.
 
-## Pro Tips for Testing
+For each prompt:
+- Open the corresponding `.md` file for detailed instructions and examples.
+- Customize the input to match your project’s needs.
+- Use the generated outputs as a foundation and adapt as needed.
 
-### Test Generation
-- Start with critical business logic and user-facing features
-- Include both happy path and error scenarios
-- Consider edge cases and boundary conditions
+---
 
-### Integration Testing
-- Test real integrations where possible, use mocks sparingly
-- Focus on data flow between components
-- Include failure scenarios and recovery testing
+## Best Practices
 
-### E2E Testing
-- Focus on critical user journeys that generate business value
-- Keep tests maintainable and not too brittle
-- Include cross-browser and device testing
+- Focus on critical business logic and user-facing features first.
+- Cover both typical and edge cases in all tests.
+- Use real integrations where possible; mock only when necessary.
+- Prioritize high-value user journeys for E2E tests.
+- Establish baseline metrics and test with realistic data for performance validation.
 
-### Performance Testing
-- Establish baseline performance metrics before testing
-- Test with realistic data volumes and user patterns
-- Include both normal load and stress scenarios
+---
 
 ## Integration with Other Phases
 
-- **From Development**: Use tests to validate code created with [Development Phase](../development/) prompts
-- **From Planning**: Use requirements from [Planning Phase](../planning/) to guide test scenarios
-- **To Deployment**: Integrate tests into CI/CD using [Deployment Phase](../deployment/) prompts
+- Use these prompts to validate code during development.
+- Derive test scenarios from planning requirements.
+- Integrate tests into your CI/CD pipeline.
+- Update and refactor tests as your application evolves.
 
-## Testing Strategy Quick Reference
+---
 
-| I want to... | Use this prompt |
-|--------------|----------------|
-| Create unit tests for my functions | Test Generation |
-| Test API endpoints and database operations | Integration Testing |
-| Test complete user workflows | E2E Testing Strategy |
-| Validate performance under load | Performance Testing |
-
-## Next Steps
-
-After creating your tests:
-- Use [Documentation Phase](../documentation/) prompts to document your testing approach
-- Use [Deployment Phase](../deployment/) prompts to integrate tests into your CI/CD pipeline
-- Use [Maintenance Phase](../maintenance/) prompts for ongoing test maintenance 
+**Explore each prompt in this folder for step-by-step guidance and examples to strengthen your testing process.**

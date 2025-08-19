@@ -22,7 +22,7 @@ Design comprehensive enterprise architecture solutions that align business objec
 ## Example Usage
 
 ```prompt
-I need to design an enterprise architecture for [organization type] with the following requirements:
+Act as a Senior enterprise architecture with 10+ years. Design a complete  for [organization type] with the following requirements:
 
 Business Context:
 - Organization: [company size and type]
@@ -100,6 +100,10 @@ Consider industry best practices, emerging technologies, and future-proofing str
 - Document architectural decisions and rationale
 
 ## Related Prompts
-- [Multi-Cloud Strategy](./multi-cloud-strategy.md)
-- [Security Architecture](./security-architecture.md)
-- [Compliance and Governance](./compliance-governance.md)
+
+- [Multi-Cloud Strategy](../Infrastructure%20Architect/multi-cloud-strategy.md)
+- [Security Architecture](../Infrastructure%20Architect/security-architecture.md)
+- [Compliance and Governance](../Infrastructure%20Architect/compliance-governance.md)
+
+
+
